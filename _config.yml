@@ -1,0 +1,69 @@
+```yaml
+remote_theme: christianezeani/panthera-jekyll
+```
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+title: JiHoon Kim
+subtitle: Full-Stack Developer
+
+# left_side:
+#   background_image: "./assets/images/left-background.jpg"
+#   background_color: "#F00"
+#   close_button_color: "#F00"
+#   text_color: "#F00"
+
+footer:
+  copyright_text: "&copy; Christian Ezeani"
+
+# Side Menu Links
+menu:
+  - text: Portfolio
+    link: /
+    icon: ""
+
+  - text: Skills & Offers
+    link: /skills-and-offers
+    icon: ""
+
+  - text: Contact Me
+    link: /contact
+    icon: ""
+
+  - text: My Resume
+    link: /resume
+    icon: ""
+
+  - text: Blog Posts
+    link: /blog
+    icon: ""
+
+# Socialmedia Icons
+social_icons:
+  - name: linkedin
+    link: https://www.linkedin.com/paragonjh
+    icon: fab fa-linkedin
+
+  - name: github
+    link: https://github.com/paragonjh
+    icon: fab fa-github-square
+
+  - name: facebook
+    link: https://www.facebook.com/paragonjh
+    icon: fab fa-facebook-square
+
+  - name: twitter
+    link: https://www.twitter.com/paragonjh
+    icon: fab fa-twitter
+
+
+    
