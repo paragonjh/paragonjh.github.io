@@ -1,5 +1,6 @@
 name: Jekyll Themes
-url: http://matt.harzewski.com
+url: "https://paragonjh.github.io"
+baseurl: ""
 description: Insert tagline here
 
 permalink: /themes/:title/
