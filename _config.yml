@@ -1,5 +1,3 @@
-remote_theme: christianezeani/panthera-jekyll
-
 defaults:
   -
     scope:
@@ -21,7 +19,7 @@ subtitle: Full-Stack Developer
 #   text_color: "#F00"
 
 footer:
-  copyright_text: "&copy; Christian Ezeani"
+  copyright_text: "&copy; Jihoon Kim"
 
 # Side Menu Links
 menu:
