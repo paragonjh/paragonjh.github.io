@@ -23,6 +23,10 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "paragonjh-github-io"
 
 # Build settings
 markdown: kramdown
