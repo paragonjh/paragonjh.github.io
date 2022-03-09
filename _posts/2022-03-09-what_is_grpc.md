@@ -19,7 +19,7 @@ last_modified_at: 2022-03-09T22:02:00-05:00
 
 
 ## gRPC의 구조
-<center><img src="/assets/images/gRPC1.jpg" width="100%" height="100%"></center>
+<center><img src="/assets/images/grpc1.jpg" width="100%" height="100%"></center>
 
 ## gRPC의 장단점
 ### 장점

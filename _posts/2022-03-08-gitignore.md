@@ -19,7 +19,7 @@ last_modified_at: 2022-03-08T22:06:00-05:00
 
 ## .gitignore 생성방법
 [gitignore.io](http://gitignore.io "Title") 에 접속하여 개발하려는 프로젝트에 맞는 '운영체제, 개발환경(IDE), 프로그래밍 언어' 를 입력 후 생성 한다.
-<center><img src="/assets/images/gitignore.jpg" width="50%" height="50%"></center>
+<center><img src="/assets/images/gitignore.jpg" width="100%" height="100%"></center>
 
   
 
