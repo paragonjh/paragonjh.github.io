@@ -41,6 +41,7 @@ last_modified_at: 2022-03-10T22:02:00-05:00
 ```
 
 ## 2) BroadcastReciever class 만들기
+
 Android Booting이 완료됨을 알수 있도록 BroadcastReciever class 를 생성한다.
 
 ``` kotlin
@@ -56,6 +57,7 @@ class AutoRun : BroadcastReceiver() {
 ```
 
 ## 3) Permission 획득 요청
+
 Android 10 이상은 Draw Overlay Permission이 필요하다.
 첫번째 시작 activity에 하기의 code를 추가 후 onCreate시 권한획득을 확인한다.
 
