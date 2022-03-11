@@ -21,14 +21,36 @@ fun getDeviceModel(): String {
 
 ## 실행결과
 ``` kotlin
-@@@@: getDeviceModel: BRAND:samsung MODEL:SM-T975N
+getDeviceModel: BRAND:samsung MODEL:SM-T975N
 ```
 
 참고) Build.java code를 보면 ro.build의 값을 가져와서 리턴해주는것을 알 수 있다.
 해당 정보는 adb 명령어를 통해 확인할 수도 있다.
 
-``` kotlin
-adb shell getprop
+``` shell
+$ adb shell getprop
+
+// 결과
+...
+$ [ro.product.manufacturer]: [samsung]
+$ [ro.product.model]: [SM-T970]
+$ [ro.product.name]: [gts7xlwifixx]
+$ [ro.product.odm.brand]: [samsung]
+$ [ro.product.odm.device]: [gts7xlwifi]
+$ [ro.product.odm.manufacturer]: [samsung]
+$ [ro.product.odm.model]: [SM-T970]
+$ [ro.product.odm.name]: [gts7xlwifixx]
+$ [ro.product.product.brand]: [samsung]
+$ [ro.product.product.device]: [gts7xlwifi]
+$ [ro.product.product.manufacturer]: [samsung]
+$ [ro.product.product.model]: [SM-T970]
+$ [ro.product.product.name]: [gts7xlwifixx]
+$ [ro.product.system.brand]: [samsung]
+$ [ro.product.system_ext.brand]: [samsung]
+$ [ro.product.system_ext.device]: [gts7xlwifi]
+$ [ro.product.system_ext.manufacturer]: [samsung]
+$ [ro.product.system_ext.model]: [SM-T970]
+...
 ``` 
 Build.java code)
 
