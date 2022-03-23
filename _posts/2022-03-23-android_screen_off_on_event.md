@@ -10,9 +10,11 @@ last_modified_at: 2022-03-23T22:17:00-05:00
 ---
 
 # [Android] Screen On/Off 이벤트 수신, 상태 확인하기
-Android는 화면이 켜지거나 꺼질 때 *ACTION_SCREEN_ON*, *ACTION_SCREEN_OFF* 인텐트를 브로드캐스트로 전달합니다. 앱에서는 이 인텐트를 받아서 디바이스의 화면이 켜지는지, 꺼지는지 알 수 있습니다.
+Android는 화면이 켜지거나 꺼질 때 ACTION_SCREEN_ON, ACTION_SCREEN_OFF 인텐트를 브로드캐스트로 전달합니다. 
+앱에서는 이 인텐트를 받아서 디바이스의 화면이 켜지는지, 꺼지는지 알 수 있습니다.
 
-암시적(Implicit) 브로드캐스트 제한 정책으로, 타겟이 정해지지 않은, 암시적 인텐트는 Context로 등록된 리시버로만 전달됩니다. 즉, AndroidManifest에 등록된 리시버는 인텐트를 받을 수 없게 됩니다. 이 정책은 Target API 26 이상인 앱에게만 적용됩니다.
+암시적(Implicit) 브로드캐스트 제한 정책으로, 타겟이 정해지지 않은, 암시적 인텐트는 Context로 등록된 리시버로만 전달됩니다. 
+즉, AndroidManifest에 등록된 리시버는 인텐트를 받을 수 없게 됩니다. 이 정책은 Target API 26 이상인 앱에게만 적용됩니다.
 
 따라서, ACTION_SCREEN_ON, ACTION_SCREEN_OFF 인텐트를 수신하려면 다음과 같이 Context.registerReceiver()으로 동적으로 등록해야 합니다.
 
